@@ -1,9 +1,9 @@
 # kaggle_rookies
 The very first try at a Kaggle competition
 哈囉大家好，我同步將github的一些指令更新到這裡👌
-
+'''
 指令	用途
-git status	查看當前 Git 狀態（變更的檔案）
+git status\n	查看當前 Git 狀態（變更的檔案）
 git add <檔案>	添加單個檔案到 Git 暫存區
 git add .	添加所有變更的檔案
 git commit -m "提交訊息"	提交變更
@@ -12,9 +12,9 @@ git pull origin main	拉取最新的遠端版本
 git log --oneline	查看提交歷史（簡要版）
 git branch	查看當前分支
 git checkout -b <新分支>	建立並切換到新分支
-	
-執行步驟	
-第一步驟：同步資料夾	
+'''
+## 執行步驟	
+#### 第一步驟：同步資料夾	
 先在你的本機建立一個放這個檔案的空資料夾	
 	
 1.打開 VS Code，開啟「終端機 (Terminal)」	
@@ -27,7 +27,7 @@ git checkout -b <新分支>	建立並切換到新分支
 git remote add origin https://github.com/你的GitHub帳號/你的專案名稱.git	
 這樣你建的資料夾就已經和GITHUB上面連結了	
 	
-第二步驟：將你目前的檔案上傳到GITHUB	
+#### 第二步驟：將你目前的檔案上傳到GITHUB	
 1. 檢查目前的 Git 狀態(應該會顯示「Untracked files」= 沒有 Git 追蹤的 Python 檔案)	
 git status	
 	
@@ -44,7 +44,7 @@ git commit -m "初始化專案，新增 Python 程式碼"
 	
 git push -u origin main	
 	
-第三步驟 修改已追蹤的程式	
+#### 第三步驟 修改已追蹤的程式	
 	
 1. Pull (從 Git 到本地)：	
 這步驟確保本地版本是最新的，避免與他人的更改產生衝突。	
